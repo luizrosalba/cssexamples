@@ -1,0 +1,106 @@
+
+/*Pack lines toward the center of 
+the flex container:
+Note: There must be multiple lines of items 
+for this property to have any effect!*/
+/*
+Tip: Use the justify-content property to 
+align the items on the main-axis 
+(horizontally).
+*/
+.align-content {
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  
+  .justify-content {
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /*Center the alignments for all 
+  the items of the flexible <div> element:*/
+  /*
+  Tip: Use the align-self 
+  property of each item to 
+  override the align-items property.
+  */
+  .align-items {
+    width: 220px;
+    height: 300px;
+    border: 1px solid black; 
+    display: flex;
+    align-items: center;
+  }
+  
+  #main {
+    width: 220px;
+    height: 300px;
+    border: 1px solid black; 
+    display: flex;
+    align-items: center;
+  }
+  
+  #main div {
+    flex: 1;
+  }
+  
+  #main2 {
+    width: 220px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  #myBlueDiv {
+    align-self: center;
+  }
+  
+  
+  .html {
+    font-size: small;
+    color: blue;
+  }
+  
+  
+  #ex1 {
+    background-color: yellow;
+    color: red;
+  }
+  
+  #ex2 {
+    background-color: yellow;
+    color: red;
+    all: inherit;
+  }
+  
+  #ex3 {
+    background-color: yellow;
+    color: red;
+    all: initial;
+  }
+  
+  #ex4 {
+    background-color: yellow;
+    color: red;
+    all: unset;
+  }
+  
+  
+  
+  /*
+  Set different background properties in one declaration:
+  background: lightblue url("img_tree.gif") no-repeat fixed center;
+  
+  
+  */
+  

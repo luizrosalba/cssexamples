@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+  }
+  p {
+    color: red;
+    font-family: courier;
+    font-size: 20px;
+  }
+  /* fará a id myName ter bold*/
+  #myName {
+    font-weight: bold;
+  }
+  
+  .boldText {
+    font-weight: bold;
+  }
+  
+  .FonteSizecm{
+    font-size: 2cm;
+  }
+  
+  .FonteSizemm{
+    font-size: 20mm;
+  }
+  /*inches (1in = 96px = 2.54cm)*/
+  .FonteSizein{
+    font-size: 0.5in;
+  }
+  /*	pixels (1px = 1/96th of 1in)*/
+  .FonteSizepx{
+    font-size: 50px;
+  }
+  /*	points (1pt = 1/72 of 1in)*/
+  .FonteSizept{
+    font-size: 30pt;
+  }
+  /*picas (1pc = 12 pt)*/
+  .FonteSizepc{
+    font-size: 2pc;
+  }
+  
+  /*Relative to the font-size of the element 
+  (2em means 2 times the size of the current font)*/
+  .FonteSizeem{
+    font-size: 2em;
+  }
+  /*Relative to the x-height of the current font (rarely used)*/
+  .FonteSizeex{
+    font-size: 2ex;
+  }
+  /*	Relative to the width of the "0" (zero)*/
+  .FonteSizech{
+    font-size: 2ch;
+  }
+  /*	Relative to font-size of the root element*/
+  .FonteSizerem{
+    font-size: 2rem;
+  }
+  
+  /*	Relative to 1% of the width of the viewport**/
+  .FonteSizevm{
+    font-size: 2vm;
+  }
+  /*Relative to 1% of the height of the viewport**/
+  
+  .FonteSizevh{
+    font-size: 2vh;
+  }
+  /*Relative to 1% of viewport's* smaller dimension*/
+  .FonteSizevmin{
+    font-size: 2vmin;
+  }
+  /*Relative to 1% of viewport's* larger dimension*/
+  .FonteSizevmax{
+    font-size: 2vmax;
+  }
+  /* Relative to the parent element */
+  .FonteSizepor{
+    font-size: 100%;
+  }
+  

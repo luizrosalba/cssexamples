@@ -1,0 +1,128 @@
+
+body {
+    height: 100vh;
+    display: flex;
+    background: white;
+    animation: mymove 10s infinite;
+    font-size: 24px;
+  }
+
+  #example1 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: border-box;  
+  }
+  
+  #example2 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: padding-box;
+  }
+  
+  #example3 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: content-box;
+  }
+
+
+
+  /* 
+  Example
+Specify the size of a background-image with "auto" and in pixels:
+
+#example1 {
+  background: url(mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+#example2 {
+  background: url(mountain.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+}
+
+
+  Example
+Repeat a background-image only vertically:
+
+body {
+  background-image: url("paper.gif");
+  background-repeat: repeat-y;
+}
+
+  The background-position Property
+Here, the background image will be positioned in the center of the element (in this case, the body element).
+
+
+  tem que botar o paper.gif que nao tenho para visualizar estes exemplos 
+
+  #example1a {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url(paper.gif);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+  }
+  
+  #example2a {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url(paper.gif);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+  }
+  
+  #example3a {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url(paper.gif);
+    background-repeat: no-repeat;
+
+  }
+*/
+
+
+  
+  /*
+
+  body {background-color: coral;}
+
+  Set a background-image for the <body> element:
+
+  body {
+  background-image: url("paper.gif");
+  background-color: #cccccc;
+  }
+
+  Let the background-image start from the upper left corner of the content:
+
+  #example1 {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url(paper.gif);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+  }
+
+
+  A background-image that will not scroll with the page (fixed):
+
+  imagemnaoscroll {
+  background-image: url("img_tree.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.background-blend-mode {
+  background-repeat: no-repeat, repeat;
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-blend-mode: lighten;
+}
+
+
+  */

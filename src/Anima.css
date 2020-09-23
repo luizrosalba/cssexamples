@@ -1,0 +1,40 @@
+
+/*ANimacao de mudanca de cor de fundo*/
+/*
+@keyframes mymove {
+  from {background-color: white;}
+  to {background-color : bisque}
+}
+*/
+
+/*duration Specify that the animation should complete one cycle in 3 seconds:*/
+.animacao {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-duration: 3s;
+  }
+  
+  /*mantem o estilo quando a animacao acaba*/
+  .animation-fill-mode{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove2 3s;
+    animation-fill-mode: forwards;
+    
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  @keyframes mymove2 {
+    from {top: 0px;}
+    to {top: 200px; background-color: blue;}
+  }
