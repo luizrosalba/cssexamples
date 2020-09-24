@@ -4,3 +4,18 @@
   box-sizing: border-box;
 }
 
+
+#flex {
+  width: 100vw;
+  height: 10vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  
+}
+
+#flex div {
+  -ms-flex: 1;  /* IE 10 */  
+  flex: 1;
+  
+}

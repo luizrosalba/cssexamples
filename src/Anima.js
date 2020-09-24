@@ -14,6 +14,13 @@ export default function Anima() {
 
       <div className="animation-fill-mode">align-content</div>
 
+      <h1>The @keyframes Rule</h1>
+
+      <div className="aaa">conteudo</div>
+
+      <p><strong>Note:</strong> The @keyframes rule is not supported in Internet Explorer 9 and earlier versions.</p>
+
+     
         
       </header>
    

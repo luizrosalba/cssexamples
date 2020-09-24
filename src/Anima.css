@@ -38,3 +38,17 @@
     from {top: 0px;}
     to {top: 200px; background-color: blue;}
   }
+
+
+  .aaa {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove3 5s infinite;
+  }
+  
+  @keyframes mymove3 {
+    from {top: 50px;}
+    to {top: 100px;}
+  }

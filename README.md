@@ -1,3 +1,6 @@
+# Parei https://www.w3schools.com/cssref/css3_pr_flex.asp
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

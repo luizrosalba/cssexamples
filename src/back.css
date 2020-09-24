@@ -28,9 +28,71 @@ body {
     background-clip: content-box;
   }
 
+   
+  p.ex111 {
+    background-color: yellow;  
+    min-height: 100px;
+  }
+
+  span.ex1 {
+    min-width: 500px;
+  }
+
+  span {
+    background-color: yellow;  
+  }
+  
+  span.ex1 {
+    min-width: 500px;
+    display: inline-block;
+  }
+
+  .container2 {
+    background-color: red;
+    padding: 15px;
+  }
+  
+  .container2 img {
+    mix-blend-mode: darken;
+  }
+
+  img.aaaaa {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+  }
 
 
+  img.ba {
+    width: 200px;
+    height: 400px;
+    object-fit: none;
+    object-position: 5px 10%;
+    border: 5px solid red;
+  }
+  
+  div.cc {
+    background-color: red;
+    opacity: 0.5;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media print {
+    footer {page-break-after: always;}
+  }
+
+
+  @media print {
+    h1 {page-break-before: always;}
+  }
+  
   /* 
+
   Example
 Specify the size of a background-image with "auto" and in pixels:
 

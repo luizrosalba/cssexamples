@@ -15,6 +15,25 @@ h1 {
     font-family: courier;
     font-size: 20px;
   }
+
+  p.a {
+    font: 15px Arial, sans-serif;
+  }
+  
+  p.b {
+    font: italic small-caps bold 12px/30px Georgia, serif;
+  }
+
+  /*inserir a url da fonte src: url(sansation_light.woff);
+  @font-face {
+    font-family: myFirstFont;
+  }
+*/
+
+  div {
+    font-family: myFirstFont;
+  }
+
   /* fará a id myName ter bold*/
   #myName {
     font-weight: bold;
@@ -87,4 +106,70 @@ h1 {
   .FonteSizepor{
     font-size: 100%;
   }
+  .ex5 {
+    font-size-adjust: 0.58;
+  }
   
+  .stretch {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: expanded;
+  }
+
+  p.normal {
+    font-variant: normal;
+  }
+  
+  p.small {
+    font-variant: small-caps;
+  }
+
+  p2.normal {font-variant-caps: normal;}
+  p2.small {font-variant-caps: small-caps;}
+  p2.allsmall {font-variant-caps: all-small-caps;}
+  p2.petite {font-variant-caps: petite-caps;}
+  p2.allpetite {font-variant-caps: all-petite-caps;}
+  p2.unicase {font-variant-caps: unicase;}
+  p2.titling {font-variant-caps: titling-caps;}
+
+
+  /* enable small-caps */
+.ex1 { font-feature-settings: "smcp" on; }
+
+/* convert both upper and lowercase to small caps */
+.ex2 { font-feature-settings: "c2sc", "smcp"; }
+
+/* no common ligatures */
+.ex3 { font-feature-settings: "liga" 0; }
+
+/* enable automatic fractions */
+.ex4 { font-feature-settings: "frac"; }
+
+
+
+
+div.va {
+  line-height: normal;
+}
+
+div.vb {
+  line-height: 1.6;
+}
+
+div.vc {
+  line-height: 80%;
+}
+
+div.vd {
+  line-height: 200%;
+}
+
+
+
+p.ex10 {
+  margin: 35px;
+}
+
+
+p.ex11 {
+  margin-top: 25px;
+}
