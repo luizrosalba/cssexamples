@@ -146,7 +146,6 @@ h1 {
 
 
 
-
 div.va {
   line-height: normal;
 }
@@ -173,3 +172,142 @@ p.ex10 {
 p.ex11 {
   margin-top: 25px;
 }
+
+
+div.xxa {
+  text-align: center;
+}
+
+div.xxb {
+  text-align: left;
+}
+
+div.xxc {
+  text-align: right;
+} 
+
+div.xxd {
+  text-align: justify;
+} 
+
+
+#decoracao{
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: underline;
+  text-decoration: underline overline;
+}
+
+
+div.kka {
+  text-indent: 50px;
+}
+
+div.kkb {
+  text-indent: -2em;
+}
+
+div.kkc {
+  text-indent: 30%;
+}
+
+#allp {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+div.ha {
+  white-space: nowrap; 
+  width: 50px; 
+  overflow: hidden;
+  text-overflow: clip; 
+  border: 1px solid #000000;
+}
+
+div.hb {
+  white-space: nowrap; 
+  width: 50px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  border: 1px solid #000000;
+}
+
+div.hc {
+  white-space: nowrap; 
+  width: 50px; 
+  overflow: hidden;
+  text-overflow: "----"; 
+  border: 1px solid #000000;
+}
+
+#sombra {
+  text-shadow: 2px 2px #FF0000;
+}
+
+h2.a {
+  visibility: visible;
+}
+
+h2.b {
+  visibility: hidden;
+}
+
+p.pppa {
+  white-space: nowrap;
+}
+
+p.pppb {
+  white-space: normal;
+}
+
+p.pppc {
+  white-space: pre;
+}
+
+
+
+p {
+  width: 140px; 
+  border: 1px solid #000000;
+}
+
+p.ttta {
+  word-break: normal;
+}
+
+p.tttb {
+  word-break: keep-all;
+}
+
+p.tttc {
+  word-break: break-all;
+}
+
+
+p.oooa { 
+  word-spacing: normal;
+}
+
+p.ooob { 
+  word-spacing: 30px;
+}
+
+p.oooc { 
+  word-spacing: 1cm;
+}
+
+
+p.test1 {
+  writing-mode: horizontal-tb; 
+}
+
+p.test2 {
+  writing-mode: vertical-rl; 
+}
+
+span.test2 {
+  writing-mode: vertical-rl; 
+}
+
+

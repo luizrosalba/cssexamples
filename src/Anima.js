@@ -20,7 +20,52 @@ export default function Anima() {
 
       <p><strong>Note:</strong> The @keyframes rule is not supported in Internet Explorer 9 and earlier versions.</p>
 
-     
+            
+      <h1>The transform Property</h1>
+
+      <h2>transform: rotate(20deg):</h2>
+      <div className="a">Hello World!</div>
+      <br></br>
+
+      <h2>transform: skewY(20deg):</h2>
+      <div className="b">Hello World!</div>
+      <br></br>
+
+      <h2>transform: scaleY(1.5):</h2>
+      <div className="c">Hello World!</div>
+
+      <h1>The transform-origin Property</h1>
+
+      <h1>The transform-style Property</h1>
+
+<div id="div1v">
+  <div id="div2v">HELLO
+  <div id="div3v">YELLOW</div>
+  </div>
+</div>
+
+<div id="div1a">
+  <div id="div2a">HELLO</div>
+</div>
+
+
+<h1>The transition Property</h1>
+
+<p>Hover over the div element below, to see the transition effect:</p>
+
+<div className="avv" >dasdsa</div>
+
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
+<h1>The unicode-bidi Property</h1>
+
+<div>Some text. Default writing direction.</div>
+<div className="e1x1">Some text. Right-to-left direction.</div>
+
+<h1>The user-select Property</h1>
+
+<div className="kkk">The text of this div element cannot be selected. If you double-click me, my text will not be highlighted.</div>
+
         
       </header>
    

@@ -629,7 +629,7 @@ div.xc {
   border: 3px solid green;
 } 
 
-h2 {
+#h2 {
   border: 1px solid red;
   outline: 5px dotted green;
 }
@@ -671,3 +671,76 @@ div.exa4 {
   height: 110px;
   overflow: visible;
 }
+
+#section1 {
+  height: 600px;
+  background-color: pink;
+}
+
+#section2 {
+  height: 600px;
+  background-color: yellow;
+}
+
+
+#t1 {
+  
+  
+  tab-size: 4;
+}
+
+#t2 {
+  
+  
+  tab-size: 16;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+} 
+
+th,td {
+  border: 1px solid black;
+}
+
+table.a {
+  table-layout: auto;
+  width: 180px;  
+}
+
+table.b {
+  table-layout: fixed;
+  width: 180px;  
+}
+
+table.c {
+  table-layout: auto;
+  width: 100%;  
+}
+
+table.d {
+  table-layout: fixed;
+  width: 100%;  
+}
+
+
+div.mma {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid red;
+}
+
+div.mmb {
+  position: absolute;
+  top: 0;
+  border: 3px solid blue;
+} 
+
+div.mmc {
+  position: absolute;
+  top: 50px;
+  border: 3px solid green;
+} 
+

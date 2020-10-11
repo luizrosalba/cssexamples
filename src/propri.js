@@ -538,6 +538,142 @@ tellus diam, consequat gravida libero rhoncus ut. Maecenas
 
 
 
+<h1>Smooth Scroll</h1>
+
+<div className="main" id="section1">
+  <h2>Section 1</h2>
+  <p>Click on the link to see the "smooth" scrolling effect.</p>
+  <a href="#section2">Click Me to Smooth Scroll to Section 2 Below</a>
+  <p>Note: Remove the scroll-behavior property to remove smooth scrolling.</p>
+</div>
+
+<div className="main" id="section2">
+  <h2>Section 2</h2>
+  <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
+</div>
+
+
+
+<pre id="t1">
+I	use	tab-size	4
+</pre>
+
+<pre id="t2">
+I	use	tab-size	16
+</pre>
+
+<p><strong>Note:</strong> The tab-size property is currently supported in Chrome, Safari and Opera.</p>
+
+<p><strong>Note:</strong> Firefox supports an alternative, the -moz-tab-size property. Opera 10.6 to 12.1 
+also supports an alternative, the -o-tab-size property.</p>
+
+
+
+<h1>The table-layout Property</h1>
+
+<table class="a">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+</table>
+
+<h2>table-layout: fixed; width: 180px:</h2>
+<table class="b">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+</table>
+
+<h2>table-layout: auto; width: 100%:</h2>
+<table class="c">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+</table>
+
+<h2>table-layout: fixed; width: 100%:</h2>
+<table class="d">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+</table>
+
+<h1>The top Property</h1>
+
+<p>The following red div element has position: relative;</p>
+
+<div className="mma">
+  <div className="mmb">This div element has position: absolute, and top: 0.</div>  
+  <div className="mmc">This div element has position: absolute, and is placed 50 pixels down from the top edge of the containing positioned element.</div>
+</div>
 
 
         </header>

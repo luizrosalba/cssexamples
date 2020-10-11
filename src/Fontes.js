@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './App.css';
 import './Fontes.css';
 
 export default function Fontes() {
@@ -114,6 +113,231 @@ export default function Fontes() {
       <p>A paragraph with no margins specified.</p>
       <p className="ex11">A paragraph with a 25 pixels top margin.</p>
       <p>A paragraph with no margins specified.</p>
+
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+
+
+      <h1>The text-align Property</h1>
+
+      <div className="xxa">
+      <h2>text-align: center:</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      </div>
+      <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+      <div className="xxb">
+      <h2>text-align: left:</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      </div>
+      <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+
+      <div className="xxc">
+      <h2>text-align: right:</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      </div>
+      <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+      <div className="xxd">
+      <h2>text-align: justify:</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      </div>
+
+      <div id="decoracao">This is heading 1</div>
+      
+      
+      <h1>The text-indent Property</h1>
+
+<h2>text-indent: 50px:</h2>
+<div className="kka">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+</div>
+
+<h2>text-indent: -2em:</h2>
+<div className="kkb">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+</div>
+
+<h2>text-indent: 30%:</h2>
+<div className="kkc">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+</div>
+
+
+<h1>The text-justify Property</h1>
+
+<div id="allp"> In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'</div>
+
+
+
+<p><b>Tip:</b> Resize the browser window to see how the value "justify" works.</p>
+
+
+<h1>The text-overflow Property</h1>
+
+<p>The following two divs contains a text that will not fit in the box.</p>
+
+<h2>text-overflow: clip (default):</h2>
+<div className="ha">Hello world!</div>
+
+<h2>text-overflow: ellipsis:</h2>
+<div className="hb">Hello world!</div>
+
+<h2>text-overflow: "----" (user defined string):</h2>
+<div className="hc">Hello world!</div>
+
+<p><strong>Note:</strong> The text-overflow: "<em>string</em>" only works in 
+Firefox.</p>
+
+
+<div id="sombra">The text-shadow Property</div>
+
+<p><b>Note:</b> Internet Explorer 9 and earlier do not support the text-shadow property.</p>
+
+<h1>The visibility Property</h1>
+
+<h2 className="a">This heading is visible</h2>
+
+<h2 className="b">This heading is hidden</h2>
+
+<p>Notice that the hidden heading still takes up space on the page.</p>
+
+
+
+<h1>Nao Funcionou The white-space Property</h1>
+
+<h2>white-space: nowrap:</h2>
+<p className="pppa">
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+</p>
+
+<h2>white-space: normal:</h2>
+<p className="pppb">
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+</p>
+
+<h2>white-space: pre:</h2>
+<p className="pppc">
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+</p>
+
+<h1>The word-break Property</h1>
+
+<h2>word-break: normal (default):</h2>
+<p className="ttta">Thisissomeveryveryverylong word. Words will break according to usual rules.</p>
+
+<h2>word-break: keep-all:</h2>
+<p className="tttb">Thisissomeveryveryverylong word. This text will-break-at-hyphens.</p>
+
+<h2>word-break: break-all:</h2>
+<p className="tttc">Thisissomeveryveryverylong word. This text will break at any character.</p>
+
+
+
+
+<h1>The word-spacing Property</h1>
+
+<h2>word-spacing: normal:</h2>
+<p className="oooa">This is some text. This is some text.</p>
+
+<h2>word-spacing: 30px:</h2>
+<p className="ooob">This is some text. This is some text.</p>
+
+<h2>word-spacing: 1cm:</h2>
+<p className="oooc">This is some text. This is some text.</p>
+
+
+<h1>The writing-mode Property</h1>
+
+<p className="test1">Some text with default writing-mode.</p>
+
+<p>Some text with a span element with a <span className="test2">vertical-rl</span> writing-mode.</p>
+
+<p className="test2">Some text with writing-mode: vertical-rl.</p>
+
+
 
       </header>
    

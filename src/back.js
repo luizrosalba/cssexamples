@@ -122,9 +122,80 @@ export default function Back() {
 
 <h1> Page break </h1>
 
+<h1>The perspective Property</h1>
+
+<h2>perspective: 100px:</h2>
+<div id="div1">DIV1
+  <div id="div2">DIV2</div>
+</div>
+
+<h2>perspective: none:</h2>
+<div id="div3">DIV3
+  <div id="div4">DIV4</div>
+</div>
+
+
+<h1>The pointer-events Property</h1>
+
+<p>Move over the links below to see if the react on pointer events.</p>
+
+<h2>pointer-events: none:</h2>
+<div class="exrr1">Go to <a href="https://www.w3schools.com/html">HTML Tutorial</a></div>
+
+<h2>pointer-events: auto (default):</h2>
+<div class="exrr2">Go to <a href="https://www.w3schools.com/css">CSS Tutorial</a></div>
+
+
+<h1>The position Property</h1>
+
+<div className="nada">This is a heading with an absolute position</div>
+
+<p>With absolute positioning, an element can be placed anywhere on a page. The heading below is placed 100px from the left of the page and 150px from the top of the page.</p>
+
+
+<h1>The resize Property</h1>
+
+<div className="res">
+  <p>Let the user resize both the height and the width of this div element.</p>
+  <p>To resize: Click and drag the bottom right corner of this div element.</p>
+</div>
+
+<h1>The right Property</h1>
+
+<div class="ma">This div element has position: relative;
+  <div class="mb">This div element has position: absolute and right: 0.</div>
+  <div class="mc">This div element has position: absolute and is placed 150 pixels to the left of the right edge of the containing positioned element.</div>
+</div>
 
 
      </header>
    
   );
 }
+
+/*
+
+Vertical align an image:
+
+img.a {
+  vertical-align: baseline;
+}
+
+img.b {
+  vertical-align: text-top;
+}
+
+img.c {
+  vertical-align: text-bottom;
+}
+
+img.d {
+  vertical-align: sub;
+}
+
+img.e {
+  vertical-align: super;
+}
+
+
+*/
