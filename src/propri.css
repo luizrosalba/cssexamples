@@ -29,10 +29,6 @@ align the items on the main-axis
   
 
 
-
-
-   
-
   /*Center the alignments for all 
   the items of the flexible <div> element:*/
   /*
@@ -208,8 +204,6 @@ align the items on the main-axis
 #main5 div:nth-of-type(5) {flex-grow: 1;}
 
   
-
-
 #main6 {
   width: 350px;
   height: 100px;

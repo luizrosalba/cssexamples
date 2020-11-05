@@ -7,38 +7,67 @@ export default function Fontes() {
   return (
       
       <header className="fundo">
+
+      
+
+      <details>
+        <summary> Unidades </summary>
         
+            <div>
+              This is the <span>nicest</span> page I’ve made yet.
+          </div>
+          
+          <p>{text}</p>
+          
+          <div>
+          <p><em>-William  Shakespeare</em></p>
+          </div>
+          <div className="boldText">This is my web page.</div>
+
+          <div id="myName"> Absolute Lengths</div>
+          <div className="FonteSizecm">cm This is my web page.</div>
+          <div className="FonteSizemm">mm This is my web page.</div>
+          <div className="FonteSizein">in This is my web page.</div>
+          <div className="FonteSizepx">px This is my web page.</div>
+          <div className="FonteSizept">pt This is my web page.</div>
+          <div className="FonteSizepc">pc This is my web page.</div>
+          
+          <div id="myName"> Relative Lengths</div>
+
+          <div className="FonteSizeem">EM This is my web page.</div>
+          <div className="FonteSizeex">Ex This is my web page.</div>
+          <div className="FonteSizech">ch This is my web page.</div>
+          <div className="FonteSizerem">rem This is my web page.</div>
+          <div className="FonteSizevm">vw This is my web page.</div>
+          <div className="FonteSizevh">vh This is my web page.</div>
+          <div className="FonteSizevmin">vmin This is my web page.</div>
+          <div className="FonteSizevmax">vmax This is my web page.</div>
+          <div className="FonteSizepor">% This is my web page.</div>
+       
+      </details>
+
+        
+      <details>
+        <summary> Font Face </summary>
+        
+        <div>With CSS, websites can finally use fonts other than the pre selected "web-safe" fonts.
+        </div>
+
+              
+        <div className="ex1">This is some text 0123.</div>
+        <div className="ex2">This is some text 0123.</div>
+        <div className="ex3">This is some text 0123.</div>
+        <div className="ex4">This is some text 0123.</div>
+        <div className="ex5">By specifying the font-size-adjust property, the browser will adjust the font size to be the same regardless of the font family ("verdana" has the aspect value 0.58)</div>
+        <div className="strech">he font-stretch property allows you to make text narrower (condensed) or wider (expanded).</div>
+        
+      </details>
+
      
-      <div>
-          This is the <span>nicest</span> page I’ve made yet.
-      </div>
-      
-      <p>{text}</p>
-      
-      <div>
-      <p><em>-William  Shakespeare</em></p>
-      </div>
-      <div className="boldText">This is my web page.</div>
 
-      <div id="myName"> Absolute Lengths</div>
-      <div className="FonteSizecm">cm This is my web page.</div>
-      <div className="FonteSizemm">mm This is my web page.</div>
-      <div className="FonteSizein">in This is my web page.</div>
-      <div className="FonteSizepx">px This is my web page.</div>
-      <div className="FonteSizept">pt This is my web page.</div>
-      <div className="FonteSizepc">pc This is my web page.</div>
-      
-      <div id="myName"> Relative Lengths</div>
-
-      <div className="FonteSizeem">EM This is my web page.</div>
-      <div className="FonteSizeex">Ex This is my web page.</div>
-      <div className="FonteSizech">ch This is my web page.</div>
-      <div className="FonteSizerem">rem This is my web page.</div>
-      <div className="FonteSizevm">vw This is my web page.</div>
-      <div className="FonteSizevh">vh This is my web page.</div>
-      <div className="FonteSizevmin">vmin This is my web page.</div>
-      <div className="FonteSizevmax">vmax This is my web page.</div>
-      <div className="FonteSizepor">% This is my web page.</div>
+     
+     
+    
       
             
       <p className="a">This is a paragraph. The font size is set to 15 pixels, and the font family is Arial.</p>
@@ -46,20 +75,6 @@ export default function Fontes() {
       <p className="b">This is a paragraph. The font is set to italic and bold, with small-caps (all lowercase letters are converted to uppercase). The font size is set to 12 pixels, the line height is set to 30 pixels, and the font family is Georgia.</p>
 
 
-      <h1>The @font-face Rule</h1>
-
-      <div>With CSS, websites can finally use fonts other than the pre selected "web-safe" fonts.
-      </div>
-
-            
-      <div className="ex1">This is some text 0123.</div>
-      <div className="ex2">This is some text 0123.</div>
-      <div className="ex3">This is some text 0123.</div>
-      <div className="ex4">This is some text 0123.</div>
-
-      <div className="ex5">By specifying the font-size-adjust property, the browser will adjust the font size to be the same regardless of the font family ("verdana" has the aspect value 0.58)</div>
-      <div className="strech">he font-stretch property allows you to make text narrower (condensed) or wider (expanded).</div>
-      
 
       <p className="normal">My name is Hege Refsnes.</p>
       <p className="small">My name is Hege Refsnes.</p>
