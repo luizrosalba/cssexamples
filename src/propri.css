@@ -8,24 +8,31 @@ Tip: Use the justify-content property to
 align the items on the main-axis 
 (horizontally).
 */
-.align-content {
+
+/* alinhamento Flex */
+.flex-container {
+    display: flex;
     width: 300px;
     height: 30px;
     border: 1px solid black;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+    /* flex-wrap: wrap; */
+        
+  }
+  .flex-align-center{
+    /* align-content nao mexe no texto */
+    align-content: center;  
   }
   
   .justify-content {
-    width: 300px;
-    height: 30px;
-    border: 1px solid black;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
   }
   
+
+
+
+
+   
+
   /*Center the alignments for all 
   the items of the flexible <div> element:*/
   /*
@@ -33,35 +40,29 @@ align the items on the main-axis
   property of each item to 
   override the align-items property.
   */
-  .align-items {
-    width: 220px;
-    height: 300px;
-    border: 1px solid black; 
+
+  .flex-container-alto {
     display: flex;
-    align-items: center;
-  }
-  
-  #main {
-    width: 220px;
-    height: 300px;
-    border: 1px solid black; 
-    display: flex;
-    align-items: center;
-  }
-  
-  #main div {
-    flex: 1;
-  }
-  
-  #main2 {
     width: 220px;
     height: 300px;
     border: 1px solid black;
-    display: flex;
+    
+  } 
+
+  .align-items {
+    /* alinha no centro de um flex container */
+    align-items: center;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+
+  .align-items-flex-start {
     align-items: flex-start;
   }
   
-  #myBlueDiv {
+  .align-self-center {
     align-self: center;
   }
   
@@ -72,23 +73,20 @@ align the items on the main-axis
   }
   
   
-  #ex1 {
+  .display-none {
     background-color: yellow;
     color: red;
+    display: none;
   }
   
-  #ex2 {
-    background-color: yellow;
+  .display-inline {
     color: red;
-    all: inherit;
+    display: inline;
   }
   
-  #ex3 {
-    background-color: yellow;
-    color: red;
-    all: initial;
-  }
-  
+
+
+
   #ex4 {
     background-color: yellow;
     color: red;
@@ -130,7 +128,7 @@ align the items on the main-axis
     border-collapse: separate;
     border-spacing: 15px 50px;
   }
-  p {color: red;}
+  p {color:black;}
 
   p.ex1 {display: none;}
   p.ex2 {display: inline;}
@@ -142,6 +140,7 @@ align the items on the main-axis
     height: 300px;
     border: 1px solid black;
     display: flex;
+    
   }
   
   #main div {
@@ -568,21 +567,21 @@ div.dc {
 
 
 
-.a {
+.cor-fundo-verde {
   background-color: lightgreen;
 }
-#b {
+#altura-largura-fixos {
   width: 250px;
   height: 250px;
 }
-.c {
+.altura-largura-fixos-mixed-blend {
   width: 100px;
   height: 100px;
   border: 1px solid black;
   padding: 2px;
   mix-blend-mode: difference;
 }
-#d {
+#isolation {
   isolation: auto;
 }
 #e {
@@ -672,15 +671,37 @@ div.exa4 {
   overflow: visible;
 }
 
-#section1 {
-  height: 600px;
-  background-color: pink;
+a {
+  display: inline-block;
+  width: 50px;
+  text-decoration: none;
+}
+nav, scroll-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+nav {
+  width: 339px;
+  padding: 5px;
+  border: 1px solid black;
+}
+scroll-container {
+  display: block;
+  width: 350px;
+  height: 200px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
 }
 
-#section2 {
-  height: 600px;
-  background-color: yellow;
-}
+
 
 
 #t1 {
